@@ -115,7 +115,7 @@ func (s *Sentinel) electionLoop(ctx context.Context) {
 			}
 		}
 	end:
-		time.Sleep(10 * time.Second)
+		time.Sleep(60 * time.Second)
 	}
 }
 
